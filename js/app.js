@@ -62,7 +62,8 @@ var routes = [
     { path: '*', component: load('Error404.vue') }
 ];
 const router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
-    routes
+    routes,
+    mode: "history"
 });
 /* harmony export (immutable) */ __webpack_exports__["a"] = router;
 
